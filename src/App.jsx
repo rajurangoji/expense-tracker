@@ -1,9 +1,16 @@
 import React from 'react'
+import './App.css'
+import Input from './Input'
 
 function App() {
   return (
-    <div>
-      <h1>Expense Tracker...</h1>
+    <div className='container'>
+      <div className='heading'>
+        <h1>Expense Tracker...</h1>
+      </div>
+      <div>
+        <Input/>
+      </div>
     </div>
   )
 }

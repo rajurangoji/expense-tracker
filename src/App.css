@@ -1,0 +1,68 @@
+.container{
+  width: 98vw;
+}
+.heading{
+  text-align: center;
+  color: #99BC85;
+  font-size: 22px;
+}
+
+
+/* inputs-container */
+.inputs-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.inputs-container input {
+  width: 300px;
+  border: 1px solid black;
+  outline: none;
+  height: 35px;
+  text-indent: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+}
+
+/* CSS */
+.btn-trans {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.btn-trans:hover {
+  background-color: #f7fafa;
+}
+
+.btn-trans:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
