@@ -8,7 +8,7 @@ function App() {
       <div className='heading'>
         <h1>Expense Tracker...</h1>
       </div>
-      <div>
+      <div className='main-container'>
         <Input/>
       </div>
     </div>
