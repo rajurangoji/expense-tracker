@@ -2,10 +2,10 @@ import React, { useEffect } from 'react'
 
 function TransactionHistory(props) {
     const { mainData } = props;
-    console.log(mainData)
+    // console.log(mainData)
     useEffect(() => {
+        
 
-        // console.log(`props ${JSON.stringify(mainData)}`)
     }, [mainData])
     return (
         <div className='transcation-history'>

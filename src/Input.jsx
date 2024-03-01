@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import TransactionHistory from './TransactionHistory';
+import TotalBalance from './TotalBalance';
 
 function Input() {
     const [mainData, setMainData] = useState([])
@@ -23,6 +24,7 @@ function Input() {
                 <button className='btn-trans' onClick={() => {
                     setMainData([...mainData, inputValues]);
                 }}>Add Transcation</button>
+                <TotalBalance mainData={mainData} />
             </div>
             <div>
                 <TransactionHistory mainData={mainData} />
