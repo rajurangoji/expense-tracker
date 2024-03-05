@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function TotalBalance(props) {
     const { mainData } = props;
+    
     const [totalBalance, setTotalBalance] = useState(0);
     console.log(JSON.stringify(mainData))
 
@@ -11,7 +12,7 @@ function TotalBalance(props) {
     }, [mainData]);
 
     return (
-        <div>
+        <div className='total-balance'>
             <h1>Total Balance</h1>
             <h2>{totalBalance}</h2>
         </div>

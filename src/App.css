@@ -1,3 +1,6 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 .container {
   width: 98vw;
 }
@@ -14,6 +17,9 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  background-color: #c5ebaa;
+  padding: 20px;
+  border-radius: 13px;
 }
 .inputs-container input {
   width: 300px;
@@ -75,14 +81,14 @@
   width: 100%;
   margin: 0px;
   color: #092635;
-  background-color: #C5EBAA;
+  background-color: #c5ebaa;
   position: sticky;
   top: 0px;
   padding: 5px;
   text-indent: 10px;
   border-radius: 15px;
 }
-.transcation-history{
+.transcation-history {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +96,7 @@
   height: 500px;
   overflow: scroll;
 }
-.transcation-history::-webkit-scrollbar{
+.transcation-history::-webkit-scrollbar {
   display: none;
 }
 .each-trans {
@@ -114,4 +120,31 @@
 }
 .each-trans p {
   margin: 10px;
+}
+
+.total-balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.total-balance h1 {
+  margin: 0px;
+}
+
+.income-expenduture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.income-expenduture h1 {
+  margin: 0px;
+}
+
+.container-income-expenduture {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
